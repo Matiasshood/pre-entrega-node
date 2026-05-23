@@ -1,0 +1,13 @@
+{
+  "name": "pre-entrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev" : "node index.js"
+  },
+  "author": "Matias Marchi",
+  "license": "MIT",
+  "type": "module"
+}
