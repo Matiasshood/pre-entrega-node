@@ -2,9 +2,9 @@ console.log(process.argv);
 
 const [, , method, endpoint, ...args] = process.argv;
 
-console.log(`Method: ${method}`);
-console.log(`Endpoint: ${endpoint}`);
-console.log(args);
+//console.log(`Method: ${method}`);
+//console.log(`Endpoint: ${endpoint}`);
+//console.log(args);
 
 const partes = endpoint.split("/");
 const recurso = partes[0];
