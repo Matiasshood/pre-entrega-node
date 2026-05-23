@@ -51,4 +51,6 @@ if (method === "GET" && recurso === "products" && !id){
             } catch (error){
                 console.error("Error Deleting product: ", error);
             }
+    } else {
+        console.log("Ruta no encontrada")
     }
